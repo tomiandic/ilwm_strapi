@@ -9,32 +9,8 @@
       }
     },
     {
-      "method": "GET",
-      "path": "/images/count",
-      "handler": "images.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/images/:id",
-      "handler": "images.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/images",
-      "handler": "images.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/images/:id",
+      "path": "/images",
       "handler": "images.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/images/:id",
+      "path": "/images",
       "handler": "images.delete",
       "config": {
         "policies": []

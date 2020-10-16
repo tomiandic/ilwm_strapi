@@ -1,8 +1,9 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "images",
   "info": {
-    "name": "Images"
+    "name": "Images",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,7 +15,6 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
         "videos"
       ],
