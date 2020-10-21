@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "page_contents",
   "info": {
-    "name": "Page content"
+    "name": "Page content",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,6 +24,29 @@
       "required": true
     },
     "landingText_en": {
+      "type": "text",
+      "required": true
+    },
+    "mainDescription_hr": {
+      "type": "text",
+      "required": true
+    },
+    "mainDescription_en": {
+      "type": "text"
+    },
+    "appDescription1_hr": {
+      "type": "text",
+      "required": true
+    },
+    "appDescription1_en": {
+      "type": "text",
+      "required": true
+    },
+    "appDescription2_hr": {
+      "type": "text",
+      "required": true
+    },
+    "appDescription2_en": {
       "type": "text",
       "required": true
     }
